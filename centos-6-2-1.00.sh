@@ -1,6 +1,6 @@
 #!/bin/bash
 
-r=`wget -q http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-7.noarch.rpm`
+r=`wget -q http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm`
 if [ $? -ne 0 ]
 then
 echo -e "PROFTPD will currently failed to install\nPlease update the following url to the correct URL:\n"
